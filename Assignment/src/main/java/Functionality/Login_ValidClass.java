@@ -26,6 +26,7 @@ public class Login_ValidClass {
 			Elements.password.sendKeys("CFTRI@school");
 			Elements.SignInBtn.click();
 			Thread.sleep(5000);
+		
 			//Takes Screenshot
 			File screenshot =((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 			//Cpy the file to location and use try catch block to handle exception
